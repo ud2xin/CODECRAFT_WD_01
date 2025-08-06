@@ -73,6 +73,25 @@ background: darkblue;
 color: #fff;
 }
 
+.card-btn {
+text-align: center;
+text-decoration: none;
+width: 100%;
+background: blue;
+color: #fff;
+font-weight: bold;
+border-radius: 0.5rem;
+padding: 0.75rem;
+border: none;
+transition: background 0.2s;
+margin-top: 0.5rem;
+}
+
+.card-btn:hover {
+background: darkblue;
+color: #fff;
+}
+
 .hero {
 background-image: url('assets/hero.png');
 background-size: cover;
@@ -178,6 +197,67 @@ transition: 0.5s ease;
 
 .services-image img:hover{
 transform: scale(1.05);
+}
+
+.me-text h2{
+font-weight: bolder;
+text-align: justify;
+padding-bottom: 20px;
+}
+
+.me-text{
+text-align: justify;
+padding-bottom: 1rem;
+}
+
+.me-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: stretch;
+    padding: 2rem 4rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card-img-top {
+    max-height: 120px;
+    object-fit: contain;
+    width: 100%;
+    margin-top: 20px;    /* Tambahkan jarak atas */
+    margin-bottom: 10px; /* Opsional, jarak bawah */
+    padding: 0 10px;     /* Opsional, jarak samping */
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    min-height: 380px;
+    height: 100%;
+    flex: 1 1 18rem;
+    margin: 0.5rem 0.5rem;
+    min-width: 260px;
+    max-width: 320px;
+    box-sizing: border-box;
+    padding: 16px 12px 12px 12px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    justify-content: flex-end;
+}
+
+.card-title,
+.card-text {
+    margin-bottom: 1rem;
+}
+
+.card-body .btn {
+    margin-top: auto;
+    align-self: stretch; /* tombol full width */
 }
 
 .contact-content{
