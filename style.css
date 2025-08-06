@@ -321,70 +321,145 @@ border-color: blue;
 box-shadow: 0 0 0 0.1rem darkblue;
 }
 
+/* Footer Styling */
+.footer {
+    background: linear-gradient(90deg, #2d0036 0%, #a7156e 100%);
+    color: #fff;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+    margin-top: 4rem;
+    font-size: 1rem;
+}
+
+.footer .container {
+    padding-bottom: 1rem;
+}
+
+.footer h5 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+    color: #ffd6f6;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s;
+    font-weight: 500;
+}
+
+.footer a:hover {
+    color: #ffd6f6;
+    text-decoration: underline;
+}
+
+.footer .text-uppercase {
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+}
+
+.footer .bg-secondary {
+    background: #1a0022 !important;
+    color: #fff;
+    border-top: 1px solid #a7156e;
+    font-size: 0.95rem;
+    margin-top: 1.5rem;
+    padding: 0.75rem 0;
+    text-align: center;
+    border-radius: 0 0 12px 12px;
+}
+
+.footer .social-icons {
+    margin-top: 1rem;
+}
+
+.footer .social-icons a {
+    display: inline-block;
+    margin-right: 12px;
+    font-size: 1.3rem;
+    color: #ffd6f6;
+    transition: color 0.2s, transform 0.2s;
+}
+
+.footer .social-icons a:hover {
+    color: #fff;
+    transform: scale(1.2);
+}
+
 /* Responsive */
 /* Responsive Navbar & Section Padding */
 @media (max-width: 991.98px) {
-  .navbar {
+.navbar {
     padding: 0.5rem 1rem;
   }
-  .navbar-brand {
+.navbar-brand {
     font-size: 1.2rem;
-  }
-  .navbar-nav {
+}
+.navbar-nav {
     background: rgba(0,0,0,0.95);
     padding: 1rem 0;
     border-radius: 0 0 1rem 1rem;
-  }
-  .navbar-nav .nav-link {
+}
+.navbar-nav .nav-link {
     color: #fff !important;
     padding: 0.75rem 1.5rem;
     text-align: center;
-  }
+}
 }
 
 /* Responsive Hero Section */
 @media (max-width: 768px) {
-  .hero {
+.hero {
     padding: 40px 10px;
     height: auto;
     min-height: 60vh;
     margin-bottom: 3rem;
-  }
-  .hero-content {
+}
+.hero-content {
     max-width: 100%;
     padding: 0 10px;
-  }
-  .setelah-hero {
+}
+.setelah-hero {
     padding: 2rem 1rem;
-  }
-  .about-content,
-  .services-content,
-  .me-content {
+}
+.about-content,
+.services-content,
+.me-content {
     flex-direction: column;
     padding: 1rem 0.5rem;
     gap: 1.5rem;
-  }
-  .card {
+}
+.card {
     max-width: 100%;
     min-width: unset;
     margin: 0 auto 1.5rem auto;
-  }
+}
 }
 
 /* Responsive Form */
 @media (max-width: 576px) {
-  .contact-text form {
+.contact-text form {
     padding: 1rem;
     max-width: 100%;
-  }
+}
 }
 
 /* Responsive Footer */
 @media (max-width: 768px) {
-  .footer .container {
-    padding: 1rem 0.5rem;
-  }
-  .footer .row > div {
-    margin-bottom: 1.5rem;
-  }
+    .footer {
+        padding-top: 1.5rem;
+        font-size: 0.98rem;
+    }
+    .footer .container {
+        padding: 1rem 0.5rem 0.5rem 0.5rem;
+    }
+    .footer .row > div {
+        margin-bottom: 1.5rem;
+    }
+    .footer .bg-secondary {
+        font-size: 0.9rem;
+        padding: 0.75rem 0.2rem;
+    }
 }
