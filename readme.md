@@ -28,7 +28,7 @@ CODECRAFT_WD_01/
 ## 🚀 How to Use
 1. Clone this repository  
    ```bash
-   git clone <repo-link>
+   git clone https://github.com/ud2xin/CODECRAFT_WD_01
 2. Open index.html in your browser
 3. Scroll or hover over the navigation menu to see interactive effects
 
